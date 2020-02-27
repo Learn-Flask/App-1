@@ -1,0 +1,15 @@
+<!doctype html>
+<html>
+   <body>
+   <p> All users are </p>
+      <table border = 1>
+	  <tr><th> User names </th></tr>
+         {% for each in result %}
+            <tr>
+               <td> {{ each }} </td>
+            </tr>
+         {% endfor %}
+      </table>
+	  <a target="_self" href = "http://localhost:5000/" style="text-decoration:none" align = "middle">Back to Home</a>
+   </body>
+</html>

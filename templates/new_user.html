@@ -1,0 +1,15 @@
+<html>
+   <body>  
+      <h1>You are my guest</h1>
+	  <p>
+          You can add user now.
+		  <form action = "http://localhost:5000/addnewuserinfo" method = "post">
+              User Name  : <input type = "text" name = "nm" />
+		      Password   : <input type="password" name="pwd">	
+              User Type  : <select name = "usertype" multiple> <option value = "Admin">Admin</option> <option value = "guest">Guest</option> </select>			  
+              <br></br>
+		      <input type = "submit" value = "submit" />
+         </form>
+	  </p>
+   </body>
+</html>
